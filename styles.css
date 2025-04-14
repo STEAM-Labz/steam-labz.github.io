@@ -21,7 +21,7 @@ body {
     line-height: 1.6;
     color: var(--text-light);
     background-color: var(--dark-blue);
-    background-image: url('/wave-bg.svg');
+    background-image: url('./wave-bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
