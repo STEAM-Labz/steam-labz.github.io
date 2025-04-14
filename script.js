@@ -27,12 +27,6 @@ function updateCountdown() {
         document.getElementById("hours").innerHTML = "00";
         document.getElementById("minutes").innerHTML = "00";
         document.getElementById("seconds").innerHTML = "00";
-        
-        // Optionally redirect to the main site or show a launch message
-        document.querySelector('.subtitle').innerHTML = "We're live! Redirecting you to our website...";
-        setTimeout(() => {
-            window.location.href = "https://btzzrcxa.manus.space";
-        }, 3000);
     }
 }
 
